@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/sfondo1"
+    tools:context="com.raffide.nfridgec.UI.fridgeContent" >
+
+    <Button
+        android:background="@drawable/grey_button"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_text"
+        android:text="ENTRA"
+        android:layout_below="@+id/progressbar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/WelcomeMessage"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

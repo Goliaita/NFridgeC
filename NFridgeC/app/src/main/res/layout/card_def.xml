@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_def_view"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/noback"
+    android:clickable="true"
+    android:elevation="2dp"
+    card_view:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:backgroundTint="@color/noback"
+            android:weightSum="4"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/textSize"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/noback"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/product_name"
+                android:id="@+id/textProd"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize"
+                android:backgroundTint="@color/noback"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/NameProd"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/noback"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/product_manifacturer"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/noback"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"
+                android:layout_gravity="center"
+                android:id="@+id/ManiProd"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:backgroundTint="@color/noback"
+                android:layout_weight="1"
+                android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/noback"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/product_expiryDate"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/noback"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/DateProd"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

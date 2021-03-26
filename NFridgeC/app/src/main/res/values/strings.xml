@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NFridgeC</string>
+
+    <!-- Login interface -->
+    <string name="login">Accedi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!-- fridgeContent View-->
+    <string name="WelcomeMessage">Benvenuto nel tuo frigorifero, clicca sul bottone per continuare</string>
+
+    <!-- List of product fridgeContent2 FragmentMain -->
+    <string name="column_list_name">Categoria prodotto</string>
+    <string name="column_list_quatity">Numero di prodotti</string>
+
+    <!-- List detailed of products fridgeContent 2 FragmentSecondary-->
+    <string name="product_name">Nome prodotto:</string>
+    <string name="product_manifacturer">Produttore:</string>
+    <string name="product_expiryDate">Scadenza:</string>
+
+</resources>
